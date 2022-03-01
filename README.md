@@ -1,2 +1,2 @@
 # Algorithms
-Common and Useful Algorithms 
+Useful and Important Algorithms
