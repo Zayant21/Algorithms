@@ -56,7 +56,7 @@ def kdtree_closest_point(root, point, depth = 0):                 # Implemtation
     axis = depth % k
     apposite_branch = None
 
-    if point[axis] < root['point'][axis]:                        # check our pointp[axis] with root[axis] to decide to go left or right side of the tree
+    if point[axis] < root['point'][axis]:                        # check our pointp[axis] with root[axis] to decide to go left or right side of the tree 
         next_branch = root['left']
         opposite_branch = root['right']
     else:
